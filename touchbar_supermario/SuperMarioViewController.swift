@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
-//  touchbar_nyancat
+//  touchbar_supermario based in touchbar_nyancat (Aslan Vatsaev)
 //
-//  Created by Aslan Vatsaev on 05/11/2016.
-//  Copyright © 2016 AVatsaev. All rights reserved.
+//  Created by Mauro Alvarez on 16/02/2018.
 //
 
 import Cocoa
@@ -11,7 +10,7 @@ import AVFoundation
 
 
 
-class NyanCatViewController: NSViewController , NSTouchBarDelegate{
+class SuperMarioViewController: NSViewController , NSTouchBarDelegate{
   
   @objc var audio_player: AVAudioPlayer?
   
@@ -63,11 +62,11 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     sound_btn_image_off = NSImage(named: NSImage.Name(rawValue: "ic_volume_off_3x.png"))
 
     
-    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "supermario_song", ofType: "mp3")!)
+    let supermario_song = URL(fileURLWithPath: Bundle.main.path(forResource: "supermario_song", ofType: "mp3")!)
     
     do {
       
-      try audio_player = AVAudioPlayer(contentsOf: nyan_music)
+      try audio_player = AVAudioPlayer(contentsOf: supermario_song)
       audio_player?.numberOfLoops = -1
       audio_player?.prepareToPlay()
       

@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  touchbar_nyancat
+//  touchbar_supermario based in touchbar_nyancat (Aslan Vatsaev)
 //
-//  Created by Aslan Vatsaev on 05/11/2016.
-//  Copyright © 2016 AVatsaev. All rights reserved.
+//  Created by Mauro Alvarez on 16/02/2018.
 //
 
 import Cocoa

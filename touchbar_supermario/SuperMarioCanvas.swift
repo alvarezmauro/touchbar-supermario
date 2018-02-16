@@ -1,14 +1,13 @@
 //
-//  NyanCatCanvas.swift
-//  touchbar_nyancat
+//  ViewController.swift
+//  touchbar_supermario based in touchbar_nyancat (Aslan Vatsaev)
 //
-//  Created by Aslan Vatsaev on 05/11/2016.
-//  Copyright © 2016 AVatsaev. All rights reserved.
+//  Created by Mauro Alvarez on 16/02/2018.
 //
 
 import Cocoa
 
-class NyanCatCanvas: NSImageView {
+class SuperMarioCanvas: NSImageView {
     @objc var timer:Timer? = nil
 
     @objc var imageLoaded:Bool = false;
@@ -27,7 +26,7 @@ class NyanCatCanvas: NSImageView {
         self.animates = true
         
         if(self.timer == nil) {
-            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.moveNyancat), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.moveMario), userInfo: nil, repeats: true)
         }
 
         if(!self.imageLoaded){
@@ -47,7 +46,7 @@ class NyanCatCanvas: NSImageView {
         
     }
     
-    @objc public func moveNyancat() {
+    @objc public func moveMario() {
         if (xPosition < 325) {
             xPosition += 1
         }else if (xPosition > 355){

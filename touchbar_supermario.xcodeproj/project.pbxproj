@@ -10,11 +10,11 @@
 		A34053A21DCF56600081ABF1 /* ic_volume_off_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */; };
 		A34053A41DCF56640081ABF1 /* ic_volume_up_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */; };
 		A362A1061DCE6D6B00737197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1051DCE6D6B00737197 /* AppDelegate.swift */; };
-		A362A1081DCE6D6B00737197 /* NyanCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */; };
+		A362A1081DCE6D6B00737197 /* SuperMarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362A1071DCE6D6B00737197 /* SuperMarioViewController.swift */; };
 		A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A362A1091DCE6D6B00737197 /* Assets.xcassets */; };
 		A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A362A10B1DCE6D6B00737197 /* Main.storyboard */; };
-		A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */; };
-		A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */; };
+		A3826CDA1DCE79B900B7C41E /* SuperMarioCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* SuperMarioCanvas.swift */; };
+		A3826CDC1DCE7B5000B7C41E /* SuperMarioCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* SuperMarioCanvas.xib */; };
 		E0587ACB20367D84001E363B /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E0587ACA20367D84001E363B /* AppIcon.icns */; };
 		E0FA766A2036582A00891938 /* mario.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0FA766C2036582A00891938 /* mario.gif */; };
 		E0FA767620365E9B00891938 /* supermario_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FA767520365E9A00891938 /* supermario_logo.png */; };
@@ -24,14 +24,14 @@
 /* Begin PBXFileReference section */
 		A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_off_3x.png; sourceTree = "<group>"; };
 		A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_volume_up_3x.png; sourceTree = "<group>"; };
-		A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_nyancat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A362A1021DCE6D6B00737197 /* touchbar_supermario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchbar_supermario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A362A1051DCE6D6B00737197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyanCatViewController.swift; sourceTree = "<group>"; };
+		A362A1071DCE6D6B00737197 /* SuperMarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarioViewController.swift; sourceTree = "<group>"; };
 		A362A1091DCE6D6B00737197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A362A10C1DCE6D6B00737197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A362A10E1DCE6D6B00737197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NyanCatCanvas.swift; sourceTree = "<group>"; };
-		A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NyanCatCanvas.xib; sourceTree = "<group>"; };
+		A3826CD91DCE79B900B7C41E /* SuperMarioCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperMarioCanvas.swift; sourceTree = "<group>"; };
+		A3826CDB1DCE7B5000B7C41E /* SuperMarioCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperMarioCanvas.xib; sourceTree = "<group>"; };
 		E0587ACA20367D84001E363B /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		E0FA766B2036582A00891938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Base; path = Base.lproj/mario.gif; sourceTree = "<group>"; };
 		E0FA767520365E9A00891938 /* supermario_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = supermario_logo.png; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		A362A0F91DCE6D6B00737197 = {
 			isa = PBXGroup;
 			children = (
-				A362A1041DCE6D6B00737197 /* touchbar_nyancat */,
+				A362A1041DCE6D6B00737197 /* touchbar_supermario */,
 				A362A1031DCE6D6B00737197 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,26 +60,26 @@
 		A362A1031DCE6D6B00737197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */,
+				A362A1021DCE6D6B00737197 /* touchbar_supermario.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A362A1041DCE6D6B00737197 /* touchbar_nyancat */ = {
+		A362A1041DCE6D6B00737197 /* touchbar_supermario */ = {
 			isa = PBXGroup;
 			children = (
 				A3A050DA1DCE96B2009D9775 /* sound */,
 				A3826CD61DCE73EA00B7C41E /* img */,
 				A362A1051DCE6D6B00737197 /* AppDelegate.swift */,
-				A362A1071DCE6D6B00737197 /* NyanCatViewController.swift */,
-				A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */,
-				A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */,
+				A362A1071DCE6D6B00737197 /* SuperMarioViewController.swift */,
+				A3826CD91DCE79B900B7C41E /* SuperMarioCanvas.swift */,
+				A3826CDB1DCE7B5000B7C41E /* SuperMarioCanvas.xib */,
 				A362A1091DCE6D6B00737197 /* Assets.xcassets */,
 				A362A10B1DCE6D6B00737197 /* Main.storyboard */,
 				A362A10E1DCE6D6B00737197 /* Info.plist */,
 				E0587ACA20367D84001E363B /* AppIcon.icns */,
 			);
-			path = touchbar_nyancat;
+			path = touchbar_supermario;
 			sourceTree = "<group>";
 		};
 		A3826CD61DCE73EA00B7C41E /* img */ = {
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A362A1011DCE6D6B00737197 /* touchbar_nyancat */ = {
+		A362A1011DCE6D6B00737197 /* touchbar_supermario */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_nyancat" */;
+			buildConfigurationList = A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_supermario" */;
 			buildPhases = (
 				A362A0FE1DCE6D6B00737197 /* Sources */,
 				A362A0FF1DCE6D6B00737197 /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = touchbar_nyancat;
+			name = touchbar_supermario;
 			productName = touchbar_nyancat;
-			productReference = A362A1021DCE6D6B00737197 /* touchbar_nyancat.app */;
+			productReference = A362A1021DCE6D6B00737197 /* touchbar_supermario.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = AVatsaev;
 				TargetAttributes = {
 					A362A1011DCE6D6B00737197 = {
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_nyancat" */;
+			buildConfigurationList = A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_supermario" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A362A1011DCE6D6B00737197 /* touchbar_nyancat */,
+				A362A1011DCE6D6B00737197 /* touchbar_supermario */,
 			);
 		};
 /* End PBXProject section */
@@ -165,7 +165,7 @@
 				E0FA766A2036582A00891938 /* mario.gif in Resources */,
 				E0FA767820365EA800891938 /* supermario_song.mp3 in Resources */,
 				E0587ACB20367D84001E363B /* AppIcon.icns in Resources */,
-				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
+				A3826CDC1DCE7B5000B7C41E /* SuperMarioCanvas.xib in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
 				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
 				E0FA767620365E9B00891938 /* supermario_logo.png in Resources */,
@@ -181,8 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A362A1081DCE6D6B00737197 /* NyanCatViewController.swift in Sources */,
-				A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */,
+				A362A1081DCE6D6B00737197 /* SuperMarioViewController.swift in Sources */,
+				A3826CDA1DCE79B900B7C41E /* SuperMarioCanvas.swift in Sources */,
 				A362A1061DCE6D6B00737197 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +218,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -226,7 +228,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -267,7 +274,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -275,7 +284,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,9 +320,9 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WPKYPMMC7J;
-				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/touchbar_supermario/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mauroalvarez.touch-supermario";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -321,9 +335,9 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WPKYPMMC7J;
-				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/touchbar_supermario/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mauroalvarez.touch-supermario";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -332,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_nyancat" */ = {
+		A362A0FD1DCE6D6B00737197 /* Build configuration list for PBXProject "touchbar_supermario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A362A10F1DCE6D6B00737197 /* Debug */,
@@ -341,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_nyancat" */ = {
+		A362A1111DCE6D6B00737197 /* Build configuration list for PBXNativeTarget "touchbar_supermario" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A362A1121DCE6D6B00737197 /* Debug */,
