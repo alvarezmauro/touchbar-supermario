@@ -15,9 +15,10 @@
 		A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A362A10B1DCE6D6B00737197 /* Main.storyboard */; };
 		A3826CDA1DCE79B900B7C41E /* NyanCatCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */; };
 		A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */; };
-		F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */; };
-		F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE851F8AE11900AD4767 /* icon.png */; };
-		F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */; };
+		E0587ACB20367D84001E363B /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E0587ACA20367D84001E363B /* AppIcon.icns */; };
+		E0FA766A2036582A00891938 /* mario.gif in Resources */ = {isa = PBXBuildFile; fileRef = E0FA766C2036582A00891938 /* mario.gif */; };
+		E0FA767620365E9B00891938 /* supermario_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FA767520365E9A00891938 /* supermario_logo.png */; };
+		E0FA767820365EA800891938 /* supermario_song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0FA767720365EA700891938 /* supermario_song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +32,10 @@
 		A362A10E1DCE6D6B00737197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NyanCatCanvas.swift; sourceTree = "<group>"; };
 		A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NyanCatCanvas.xib; sourceTree = "<group>"; };
-		F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyan_music.mp3; sourceTree = "<group>"; };
-		F3D5DE851F8AE11900AD4767 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		E0587ACA20367D84001E363B /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		E0FA766B2036582A00891938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Base; path = Base.lproj/mario.gif; sourceTree = "<group>"; };
+		E0FA767520365E9A00891938 /* supermario_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = supermario_logo.png; sourceTree = "<group>"; };
+		E0FA767720365EA700891938 /* supermario_song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = supermario_song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +75,9 @@
 				A3826CD91DCE79B900B7C41E /* NyanCatCanvas.swift */,
 				A3826CDB1DCE7B5000B7C41E /* NyanCatCanvas.xib */,
 				A362A1091DCE6D6B00737197 /* Assets.xcassets */,
-				F3D5DE871F8AE1FD00AD4767 /* AppIcon.icns */,
 				A362A10B1DCE6D6B00737197 /* Main.storyboard */,
 				A362A10E1DCE6D6B00737197 /* Info.plist */,
+				E0587ACA20367D84001E363B /* AppIcon.icns */,
 			);
 			path = touchbar_nyancat;
 			sourceTree = "<group>";
@@ -83,8 +85,9 @@
 		A3826CD61DCE73EA00B7C41E /* img */ = {
 			isa = PBXGroup;
 			children = (
-				F3D5DE851F8AE11900AD4767 /* icon.png */,
+				E0FA767520365E9A00891938 /* supermario_logo.png */,
 				A34053A11DCF56600081ABF1 /* ic_volume_off_3x.png */,
+				E0FA766C2036582A00891938 /* mario.gif */,
 				A34053A31DCF56640081ABF1 /* ic_volume_up_3x.png */,
 			);
 			name = img;
@@ -93,7 +96,7 @@
 		A3A050DA1DCE96B2009D9775 /* sound */ = {
 			isa = PBXGroup;
 			children = (
-				F3D5DE831F8AE00200AD4767 /* nyan_music.mp3 */,
+				E0FA767720365EA700891938 /* supermario_song.mp3 */,
 			);
 			name = sound;
 			sourceTree = "<group>";
@@ -130,7 +133,7 @@
 				TargetAttributes = {
 					A362A1011DCE6D6B00737197 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = CW482378P7;
+						DevelopmentTeam = WPKYPMMC7J;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -159,12 +162,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D5DE881F8AE20700AD4767 /* AppIcon.icns in Resources */,
-				F3D5DE861F8AE13A00AD4767 /* icon.png in Resources */,
-				F3D5DE841F8AE06D00AD4767 /* nyan_music.mp3 in Resources */,
+				E0FA766A2036582A00891938 /* mario.gif in Resources */,
+				E0FA767820365EA800891938 /* supermario_song.mp3 in Resources */,
+				E0587ACB20367D84001E363B /* AppIcon.icns in Resources */,
 				A3826CDC1DCE7B5000B7C41E /* NyanCatCanvas.xib in Resources */,
 				A362A10A1DCE6D6B00737197 /* Assets.xcassets in Resources */,
 				A362A10D1DCE6D6B00737197 /* Main.storyboard in Resources */,
+				E0FA767620365E9B00891938 /* supermario_logo.png in Resources */,
 				A34053A21DCF56600081ABF1 /* ic_volume_off_3x.png in Resources */,
 				A34053A41DCF56640081ABF1 /* ic_volume_up_3x.png in Resources */,
 			);
@@ -192,6 +196,14 @@
 				A362A10C1DCE6D6B00737197 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0FA766C2036582A00891938 /* mario.gif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FA766B2036582A00891938 /* Base */,
+			);
+			name = mario.gif;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CW482378P7;
+				DEVELOPMENT_TEAM = WPKYPMMC7J;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";
@@ -308,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CW482378P7;
+				DEVELOPMENT_TEAM = WPKYPMMC7J;
 				INFOPLIST_FILE = touchbar_nyancat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vatsaev.touchbar-nyancat";

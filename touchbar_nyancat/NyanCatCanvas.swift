@@ -13,9 +13,9 @@ class NyanCatCanvas: NSImageView {
 
     @objc var imageLoaded:Bool = false;
 
-    @objc var xPosition: CGFloat = -680 {
+    @objc var xPosition: CGFloat = -30 {
         didSet {
-            self.frame = CGRect(x: xPosition, y: 0, width: 680, height: 30)
+            self.frame = CGRect(x: xPosition, y: 0, width: 30, height: 30)
         }
     }
 
@@ -35,7 +35,7 @@ class NyanCatCanvas: NSImageView {
         }
         
         self.canDrawSubviewsIntoLayer = true
-        self.frame = CGRect(x: xPosition, y: 0, width: 680, height: 30)
+        self.frame = CGRect(x: xPosition, y: 0, width: 30, height: 30)
     }
     
     override func touchesBegan(with event: NSEvent) {
@@ -48,23 +48,16 @@ class NyanCatCanvas: NSImageView {
     }
     
     @objc public func moveNyancat() {
-        if (xPosition < 0) {
+        if (xPosition < 325) {
             xPosition += 1
+        }else if (xPosition > 355){
+            xPosition -= 1
         }
     }
 
     @objc func downloadImage() {
-        
-        let url = URL(string: "https://i.imgur.com/7pgdK28.gif")
-
-        getDataFromUrl(url: url!) { (data, response, error)  in
-            guard let data = data, error == nil else { return }
-
-            DispatchQueue.main.async() { () -> Void in
-                self.image = NSImage(data: data)
-                self.imageLoaded = true;
-            }
-        }
+        self.image = NSImage(named: NSImage.Name(rawValue: "mario.gif"))
+        self.imageLoaded = true;
     }
     
     @objc func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {

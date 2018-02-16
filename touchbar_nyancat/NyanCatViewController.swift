@@ -63,7 +63,7 @@ class NyanCatViewController: NSViewController , NSTouchBarDelegate{
     sound_btn_image_off = NSImage(named: NSImage.Name(rawValue: "ic_volume_off_3x.png"))
 
     
-    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "nyan_music", ofType: "mp3")!)
+    let nyan_music = URL(fileURLWithPath: Bundle.main.path(forResource: "supermario_song", ofType: "mp3")!)
     
     do {
       
