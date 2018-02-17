@@ -322,7 +322,7 @@
 				DEVELOPMENT_TEAM = WPKYPMMC7J;
 				INFOPLIST_FILE = "$(SRCROOT)/touchbar_supermario/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mauroalvarez.touch-supermario";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alvarezmauro.touchbar-supermario";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -337,7 +337,7 @@
 				DEVELOPMENT_TEAM = WPKYPMMC7J;
 				INFOPLIST_FILE = "$(SRCROOT)/touchbar_supermario/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mauroalvarez.touch-supermario";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alvarezmauro.touchbar-supermario";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
